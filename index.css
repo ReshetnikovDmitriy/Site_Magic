@@ -68,7 +68,7 @@ header {
     gap: 2rem;
 }
 .header-logo {
-    background-image: url(/images/sun.svg);
+    background-image: url(images/sun.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 70px;
@@ -120,12 +120,12 @@ header {
     transform: scale(1.5);
 }
 .vk {
-    background-image: url(/images/vk.svg);
+    background-image: url(images/vk.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .telegram {
-    background-image: url(/images/telegram2.svg);
+    background-image: url(images/telegram2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 3rem;
