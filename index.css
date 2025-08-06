@@ -37,7 +37,7 @@ html {
 }
 body {
     background-color: var(--black);
-    background-image: url(/images/cosmos.jpg);
+    background-image: url(../images/cosmos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
