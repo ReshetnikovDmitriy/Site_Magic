@@ -399,8 +399,23 @@ footer {
         width: 6rem;
         height: 6rem;
     }
+    .content-text {
+        max-width: 43rem;
+    }
 }
 @media (max-width: 760px){
+    .content-flex {
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .content-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .text {
+        margin-bottom: 4rem;
+    }
     .modal {
         max-width: 40rem;
     }
@@ -408,5 +423,35 @@ footer {
 @media (max-width: 700px){
     .modal {
         max-width: 35rem;
+    }
+}
+@media (max-width: 600px) {
+    .footer-nav {
+        gap: 2rem;
+    }
+    .footer-nav a {
+        font-size: 1.4rem;
+    }
+    .footer-contact::before {
+        left: -0.8rem;
+    }
+}
+@media (max-width: 500px){
+    .text {
+        font-size: 7rem;
+    }
+    .link {
+        font-size: 1.3rem;
+    }
+    .cosmos-text {
+        font-size: 2.6rem;
+    }
+    .cosmos-sky {
+        width: 32rem;
+        height: 38rem;
+    }
+    .footer-nav {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
